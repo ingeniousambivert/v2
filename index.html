@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ambiverse</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Krub|Oswald|Raleway|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />
@@ -27,28 +27,29 @@
     <!-- Main navigation -->
     <header>
         <!-- Navbar -->
+
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto smooth-scroll">
 
-                        <li class="nav-item">
-                            <a class="nav-link uk-icon-link" href="#about" uk-icon="home" data-offset="90"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link uk-icon-link" href="#about" uk-icon="info" data-offset="90"></a>
-                        </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
 
-                        <li class="nav-item">
-                            <a class="nav-link uk-icon-link" href="#about" uk-icon="mail" data-offset="90"></a>
-                        </li>
-                    </ul>
-                </div>
             </div>
+
         </nav> <!-- Navbar -->
         <!-- Full Page Intro -->
         <div id="intro-section" class="view">
@@ -73,7 +74,8 @@
                                 development, feel free to look
                                 around.</h4>
                             <a href="#about">
-                                <button id="btn1" class="btn purple-gradient btn-rounded">Learn More
+                                <button id="btn1" class="btn purple-gradient btn-rounded  animated pulse infinite my-4">Learn
+                                    More
 
                                 </button>
                             </a>
@@ -673,40 +675,16 @@
                     <!-- Grid column -->
                     <div class="col-md-9 mb-md-0 mb-5">
 
-                        <form>
+                        <form method="POST" action="https://formspree.io/monarchmaisuriya7600@gmail.com">
 
                             <!-- Grid row -->
                             <div class="row">
-
                                 <!-- Grid column -->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="contact-name" class="form-control">
-                                        <label for="contact-name" class="">Your name</label>
-                                    </div>
-                                </div>
-                                <!-- Grid column -->
+                                        <input type="email" name="email" placeholder="Your email" id=" contact-email"
+                                            class="form-control">
 
-                                <!-- Grid column -->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="contact-email" class="form-control">
-                                        <label for="contact-email" class="">Your email</label>
-                                    </div>
-                                </div>
-                                <!-- Grid column -->
-
-                            </div>
-                            <!-- Grid row -->
-
-                            <!-- Grid row -->
-                            <div class="row">
-
-                                <!-- Grid column -->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="contact-Subject" class="form-control">
-                                        <label for="contact-Subject" class="">Subject</label>
                                     </div>
                                 </div>
                                 <!-- Grid column -->
@@ -720,21 +698,21 @@
                                 <!-- Grid column -->
                                 <div class="col-md-12">
                                     <div class="md-form">
-                                        <textarea type="text" id="contact-message" class="form-control md-textarea"
-                                            rows="3"></textarea>
-                                        <label for="contact-message">Your message</label>
+                                        <textarea name="message" placeholder="Your message" type="text" id="contact-message"
+                                            class="form-control md-textarea" rows="3"></textarea>
+
                                     </div>
                                 </div>
                                 <!-- Grid column -->
 
                             </div>
                             <!-- Grid row -->
-
+                            <div class="text-center text-md-left">
+                                <button type="submit" class="bt1 btn btn-secondary btn-rounded">Send</button>
+                            </div>
                         </form>
 
-                        <div class="text-center text-md-left">
-                            <a class="btn btn-purple btn-md">Send</a>
-                        </div>
+
 
                     </div>
                     <!-- Grid column -->
