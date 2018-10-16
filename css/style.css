@@ -1,9 +1,10 @@
 /* Required for full background image */
 
+
 html,
 body,
 header,
-#intro-section {
+    {
     height: 100%;
 }
 
@@ -12,10 +13,12 @@ header,
     html,
     body,
     header,
-    #intro-section {
+        {
         height: 100vh;
     }
 }
+
+
 
 .top-nav-collapse {
     background-color: #563e91 !important;
@@ -31,8 +34,21 @@ header,
     }
 }
 
+a {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+}
+
 #btn1 {
     border-radius: 20px;
+}
+
+.bt1 {
+    transition: all 0.75s ease;
+}
+
+.bt1:hover {
+    border-radius: 40px;
 
 }
 
