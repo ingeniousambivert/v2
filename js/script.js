@@ -8,7 +8,7 @@ var ab = document.getElementById('ab');
 window.onscroll = function () {
 
 
-    if (window.pageYOffset >= 20) {
+    if (window.pageYOffset >= 40) {
         hm.style.color = "white";
         ab.style.color = "white";
         cn.style.color = "white";
