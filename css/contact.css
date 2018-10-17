@@ -106,4 +106,9 @@ hr.style {
     #svg1 {
         visibility: hidden;
     }
+
+    form {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
 }
