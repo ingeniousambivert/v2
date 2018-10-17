@@ -101,3 +101,9 @@ hr.style {
     background: -webkit-linear-gradient(to right, #D76D77, #3A1C71);
     background: linear-gradient(to right, #D76D77, #3A1C71);
 }
+
+@media (max-width: 700px) {
+    #svg1 {
+        visibility: hidden;
+    }
+}
