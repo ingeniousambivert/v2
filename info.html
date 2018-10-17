@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ambiverse</title>
+    <!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Krub|Oswald|Raleway|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
 
@@ -32,7 +34,7 @@
     <header>
         <!-- Navbar -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark indigo fixed-top scrolling-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -41,14 +43,14 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home
+                        <a id="hm" class="nav-link" href="index.html">Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a id="ab" class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a id="cn" class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
 
@@ -622,6 +624,8 @@
         </section>
         <!--Section: articles-->
 
+        <!-- Chart -->
+
         <!--Section: contact-->
         <section id="contact" class="py-5" style="background-color: #eee;">
 
@@ -708,6 +712,7 @@
 
             </div>
 
+
         </section>
 
         <!--Section: contact-->
@@ -750,13 +755,12 @@
 
     </footer>
     <!-- Footer -->
+
     <!-- SCRIPTS -->
-    <script>
-        // MDB Lightbox Init
-        $(function () {
-            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-        });
+
+    <script type="text/javascript" src="/js/script.js">
     </script>
+
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap tooltips -->
