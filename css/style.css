@@ -49,6 +49,12 @@ a {
 
 }
 
+hr.style {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(255, 255, 255, 0.8);
+}
+
 
 .rgba-gradient {
     background: rgba(35, 7, 77, 0.6);
