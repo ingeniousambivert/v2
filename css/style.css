@@ -31,6 +31,41 @@ header,
     }
 }
 
+#hm {
+    transition: all 0.25s ease;
+
+}
+
+#hm:hover {
+    border: 1.5px black solid;
+    border-radius: 16px;
+    padding: 7px;
+}
+
+#ab {
+    transition: all 0.25s ease;
+
+}
+
+#ab:hover {
+    border: 1.5px black solid;
+    border-radius: 16px;
+    padding: 7px;
+}
+
+#cn {
+    transition: all 0.25s ease;
+
+}
+
+#cn:hover {
+    border: 1.5px black solid;
+    border-radius: 16px;
+    padding: 7px;
+}
+
+
+
 a {
     font-family: 'Roboto Condensed',
         sans-serif;
