@@ -3,6 +3,7 @@ body,
 header,
     {
     height: 100%;
+    background-color: #f4f4f4;
 }
 
 @media (max-width: 740px) {
@@ -95,8 +96,10 @@ hr.style {
 }
 
 
-.top-nav-collapse,
+
 .page-footer {
+    position: fixed;
+    width: 100%;
     background: #563e91;
     background: -webkit-linear-gradient(to right, #D76D77, #3A1C71);
     background: linear-gradient(to right, #D76D77, #3A1C71);
