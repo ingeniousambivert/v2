@@ -98,8 +98,9 @@ hr.style {
 
 
 .page-footer {
-    position: fixed;
+
     width: 100%;
+    bottom: 0px;
     background: #563e91;
     background: -webkit-linear-gradient(to right, #D76D77, #3A1C71);
     background: linear-gradient(to right, #D76D77, #3A1C71);
