@@ -1,0 +1,118 @@
+html,
+body,
+header,
+    {
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 740px) {
+
+    html,
+    body,
+    header,
+        {
+        height: 100vh;
+    }
+}
+
+.sv {
+    display: inline-block;
+}
+
+
+#hm {
+    transition: all 0.25s ease;
+    margin: 5px;
+    color: white;
+}
+
+#hm:hover {
+    border: 1.5px white solid;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+#ab {
+    transition: all 0.25s ease;
+    margin: 5px;
+    color: white;
+}
+
+#ab:hover {
+    border: 1.5px white solid;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+#cn {
+    transition: all 0.25s ease;
+    margin: 5px;
+    color: white;
+}
+
+#cn:hover {
+    border: 1.5px white solid;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+
+
+a {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+}
+
+#btn1 {
+    border-radius: 20px;
+}
+
+.bt1 {
+    transition: all 1s ease;
+}
+
+.bt1:hover {
+    border-radius: 40px;
+
+}
+
+hr.style {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 13px 18px -12px rgba(255, 255, 255, 0.8);
+}
+
+.top-nav-collapse {
+    background: linear-gradient(to right, #D76D77, #3A1C71);
+}
+
+
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: linear-gradient(to right, #D76D77, #3A1C71);
+    }
+}
+
+
+
+.page-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: #563e91;
+    background: -webkit-linear-gradient(to right, #D76D77, #3A1C71);
+    background: linear-gradient(to right, #D76D77, #3A1C71);
+}
+
+@media (max-width: 700px) {
+    #svg1 {
+        visibility: hidden;
+    }
+
+    form {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+}
