@@ -23,11 +23,11 @@ header,
 #hm {
     transition: all 0.25s ease;
     margin: 5px;
-
+    color: white;
 }
 
 #hm:hover {
-    border: 1.5px black solid;
+    border: 1.5px white solid;
     border-radius: 30px;
     padding: 7px;
 }
@@ -35,10 +35,11 @@ header,
 #ab {
     transition: all 0.25s ease;
     margin: 5px;
+    color: white;
 }
 
 #ab:hover {
-    border: 1.5px black solid;
+    border: 1.5px white solid;
     border-radius: 30px;
     padding: 7px;
 }
@@ -46,10 +47,11 @@ header,
 #cn {
     transition: all 0.25s ease;
     margin: 5px;
+    color: white;
 }
 
 #cn:hover {
-    border: 1.5px black solid;
+    border: 1.5px white solid;
     border-radius: 30px;
     padding: 7px;
 }
