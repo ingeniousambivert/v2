@@ -33,6 +33,7 @@ header,
 
 #hm {
     transition: all 0.25s ease;
+    margin: 5px;
 
 }
 
@@ -44,7 +45,7 @@ header,
 
 #ab {
     transition: all 0.25s ease;
-
+    margin: 5px;
 }
 
 #ab:hover {
@@ -55,7 +56,7 @@ header,
 
 #cn {
     transition: all 0.25s ease;
-
+    margin: 5px;
 }
 
 #cn:hover {
