@@ -107,5 +107,7 @@ hr.style {
 
 .top-nav-collapse,
 .page-footer {
-    background-color: #563e91 !important;
+    background: #563e91;
+    background: -webkit-linear-gradient(to right, #D76D77, #3A1C71);
+    background: linear-gradient(to right, #D76D77, #3A1C71);
 }
