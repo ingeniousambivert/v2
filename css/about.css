@@ -39,8 +39,9 @@ header,
 
 #hm:hover {
     border: 1.5px black solid;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 7px;
+
 }
 
 #ab {
@@ -50,7 +51,7 @@ header,
 
 #ab:hover {
     border: 1.5px black solid;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 7px;
 }
 
@@ -61,7 +62,7 @@ header,
 
 #cn:hover {
     border: 1.5px black solid;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 7px;
 }
 
