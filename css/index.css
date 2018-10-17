@@ -44,10 +44,6 @@ header,
 
 }
 
-#subhead {
-    text-shadow: 8px 2px rgba(54, 51, 56, 0.2);
-}
-
 #btn1 {
     margin: 35px;
     display: inline-block;
@@ -125,5 +121,13 @@ hr.style {
         transform: translateX(-50%)
     }
 
+    #heading {
+        font-family: 'Oswald',
+            sans-serif;
+        font-size: 55px;
+        letter-spacing: -4px;
+        text-shadow: 8px 2px rgba(54, 51, 56, 0.2);
+
+    }
 
 }
