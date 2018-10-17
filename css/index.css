@@ -121,13 +121,27 @@ hr.style {
         transform: translateX(-50%)
     }
 
-    #heading {
-        font-family: 'Oswald',
-            sans-serif;
-        font-size: 55px;
-        letter-spacing: -4px;
-        text-shadow: 8px 2px rgba(54, 51, 56, 0.2);
+    @media (max-width: 500px) {
+        .vertical-divider {
+            position: absolute;
+            z-index: 10;
+            top: 85.5%;
+            left: 50%;
+            margin: 0px;
+            padding: 0;
+            height: 0;
+            width: auto;
+            text-align: center;
+            transform: translateX(-50%)
+        }
+
+        #heading {
+            font-family: 'Oswald',
+                sans-serif;
+            font-size: 55px;
+            letter-spacing: -4px;
+            text-shadow: 8px 2px rgba(54, 51, 56, 0.2);
+
+        }
 
     }
-
-}
