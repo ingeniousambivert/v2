@@ -12,11 +12,17 @@ window.onscroll = function () {
         hm.style.color = "white";
         ab.style.color = "white";
         cn.style.color = "white";
+        hm.style.borderColor = "white";
+        ab.style.borderColor = "white";
+        cn.style.borderColor = "white";
 
     } else {
         hm.style.color = "black";
         ab.style.color = "black";
         cn.style.color = "black";
+        hm.style.borderColor = "black";
+        ab.style.borderColor = "black";
+        cn.style.borderColor = "black";
 
     }
 
