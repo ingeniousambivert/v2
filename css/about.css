@@ -20,16 +20,14 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: #563e91 !important;
-}
+    background: linear-gradient(to right, #D76D77, #3A1C71);
 
-.navbar:not(.top-nav-collapse) {
-    background: transparent !important;
 }
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #563e91 !important;
+        background: linear-gradient(to right, #D76D77, #3A1C71);
+
     }
 }
 
@@ -94,10 +92,6 @@ hr.style {
 }
 
 
-
-.top-nav-collapse {
-    background-color: #563e91 !important;
-}
 
 .top-nav-collapse,
 .page-footer {

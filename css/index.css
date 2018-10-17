@@ -41,6 +41,8 @@ header,
 }
 
 #btn1 {
+    margin: 30px;
+    display: inline-block;
     border-radius: 20px;
 }
 
@@ -62,4 +64,59 @@ hr.style {
     background: #563e91;
     background: -webkit-linear-gradient(to right, #D76D77, #3A1C71);
     background: linear-gradient(to right, #D76D77, #3A1C71);
+}
+
+
+
+.vertical-divider {
+    position: absolute;
+    z-index: 10;
+    top: 90%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 10%;
+    line-height: 0;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+}
+
+.vertical-divider:before,
+.vertical-divider:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    z-index: 9;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid rgba(255, 255, 255, .1);
+    width: 0;
+    height: calc(100% - 1rem);
+}
+
+.vertical-divider:before {
+    top: -100%;
+}
+
+.vertical-divider:after {
+    top: auto;
+    bottom: 0;
+}
+
+@media (max-width: 740px) {
+    .vertical-divider {
+        position: absolute;
+        z-index: 10;
+        top: 95%;
+        left: 50%;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 5%;
+        line-height: 0;
+        text-align: center;
+        text-transform: uppercase;
+        transform: translateX(-50%);
+    }
 }
