@@ -15,6 +15,28 @@ header,
     }
 }
 
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
 .sv {
     display: inline-block;
 }
@@ -66,7 +88,14 @@ header,
     padding: 7px;
 }
 
+.headCol {
+    color: #2b1c30;
 
+}
+
+.textCol {
+    color: #aa9dad;
+}
 
 a {
     font-family: 'Roboto Condensed',
