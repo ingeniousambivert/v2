@@ -1,4 +1,4 @@
-// Basic JS to change the navbar element style after scroll
+// Basic JS to change the color of navbar element style after scroll
 
 var hm = document.getElementById('hm');
 var cn = document.getElementById('cn');
@@ -31,28 +31,30 @@ window.onscroll = function () {
 
 
 function navText() {
-    {
-        hm.style.color = "black";
-        ab.style.color = "black";
-        cn.style.color = "black";
-        hm.style.borderColor = "black";
-        ab.style.borderColor = "black";
-        cn.style.borderColor = "black";
-    }
-    if (window.screen) {
-        var width = screen.width;
-        var height = screen.height;
-
-        if (width < 400 && height < 600) {
-            hm.style.color = "white";
-            ab.style.color = "white";
-            cn.style.color = "white";
-            hm.style.borderColor = "white";
-            ab.style.borderColor = "white";
-            cn.style.borderColor = "white";
-
-        }
-
-
-    }
+    hm.style.color = "black";
+    ab.style.color = "black";
+    cn.style.color = "black";
+    hm.style.borderColor = "black";
+    ab.style.borderColor = "black";
+    cn.style.borderColor = "black";
 }
+/*
+// To detect a mobile device and change the color of the element accordingly
+function navTextSR() {
+    if (window.screen) {
+        var wd = screen.width;
+        var ht = screen.height; {
+            if (wd < 300 && ht < 500) {
+                hm.style.color = "white";
+                ab.style.color = "white";
+                cn.style.color = "white";
+                hm.style.borderColor = "white";
+                ab.style.borderColor = "white";
+                cn.style.borderColor = "white";
+            } else {
+                navText();
+            }
+        }
+    }
+
+    */
