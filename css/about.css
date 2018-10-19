@@ -56,6 +56,7 @@ html {
 .emoji {
     display: inline-block;
     font-size: 35px;
+    animation-delay: 1s;
 
 
 }
