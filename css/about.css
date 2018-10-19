@@ -64,7 +64,15 @@ html {
 
 }
 
-
+.head {
+    background-image: -webkit-linear-gradient(left, #C33764, #3A1C71);
+    /* For Chrome and Safari */
+    background-image: linear-gradient(to right, #C33764, #3A1C71);
+    /* Standard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 
 
 #hm {
