@@ -31,7 +31,7 @@ window.onscroll = function () {
 
 
 function navText() {
-    if (window.pageYOffset > 51) {
+    {
         hm.style.color = "black";
         ab.style.color = "black";
         cn.style.color = "black";
