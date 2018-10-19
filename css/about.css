@@ -54,20 +54,17 @@ html {
 }
 
 
-@media (max-width: 360px) {
-    #hm {
-        color: white;
+@media (max-width: 1000px) {
+    #about-img {
+        visibility: hidden;
+        bottom: 0;
+        margin-bottom: -1000px;
     }
 
-    #cn {
-        color: white;
 
-    }
-
-    #ab {
-        color: white;
-    }
 }
+
+
 
 
 #hm {
