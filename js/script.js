@@ -8,7 +8,7 @@ var ab = document.getElementById('ab');
 window.onscroll = function () {
 
 
-    if (window.pageYOffset >= 40) {
+    if (window.pageYOffset >= 51) {
         hm.style.color = "white";
         ab.style.color = "white";
         cn.style.color = "white";
@@ -26,5 +26,16 @@ window.onscroll = function () {
 
     }
 
+
+}
+
+
+function navText() {
+    hm.style.color = "black";
+    ab.style.color = "black";
+    cn.style.color = "black";
+    hm.style.borderColor = "black";
+    ab.style.borderColor = "black";
+    cn.style.borderColor = "black";
 
 }
