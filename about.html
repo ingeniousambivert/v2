@@ -10,16 +10,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ambiverse</title>
-    <!-- Google Charts -->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Krub|Oswald|Raleway|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Six+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:400,500" rel="stylesheet">
     <!-- Chart.js -->
     <script src="js/Chart.bundle.js"></script>
     <script src="js/utils.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit-icons.min.js"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -29,7 +32,8 @@
 </head>
 
 
-<body style="margin-top:50px;" onload="navText()" class="animated fadeIn">
+<body style="margin-top:50px; font-family: 'Raleway',
+        sans-serif;" onload="navText()" class="animated fadeIn">
     <!-- Main navigation -->
     <header>
         <!-- Navbar -->
@@ -69,10 +73,10 @@
             <!-- Container -->
             <div class="container">
                 <!-- Section heading -->
-                <h2 class=" subHead headCol h1-responsive font-weight-bold text-center mb-5">
+                <h2 class=" subHead headings headCol h1-responsive font-weight-bold text-center mb-5">
                     Hi <p class="animated wobble emoji">🙋‍♂️</p>,<br>
                     It's
-                    <span class="head">Monarch
+                    <span class="head headings">Monarch
                     </span>
                 </h2>
                 <!-- Section description -->
@@ -240,16 +244,16 @@
             <div class="container">
 
                 <!-- Section heading -->
-                <h2 class="h1-responsive font-weight-bold mb-5">Inspiration</h2>
+                <h2 class="h1-responsive font-weight-bold mb-5 headings">Inspiration</h2>
                 <!-- Section description -->
                 <p class="grey-text w-responsive mx-auto mb-5">
                     <blockquote class="blockquote text-center">
-                        <p class="mb-0" id="quote"></p>
+                        <p class="mb-0"><i id="quote"></i></p>
 
                     </blockquote>
                 </p>
                 <br>
-                <h2 class="h1-responsive font-weight-bold mb-5">My Skills</h2>
+                <h2 class="h1-responsive font-weight-bold mb-5 headings">Skills</h2>
                 <!-- Grid row -->
 
 
@@ -532,6 +536,7 @@
 
             </div>
             <!-- Container -->
+
 
         </section>
         <!--Section: articles-->
