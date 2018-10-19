@@ -61,6 +61,11 @@ html {
         margin-bottom: -1000px;
     }
 
+    .subHead,
+    .head {
+        font-size: 40px;
+    }
+
 
 }
 
