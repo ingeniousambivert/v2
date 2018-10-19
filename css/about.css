@@ -53,6 +53,23 @@ html {
     }
 }
 
+
+@media (max-width: 360px) {
+    #hm {
+        color: white;
+    }
+
+    #cn {
+        color: white;
+
+    }
+
+    #ab {
+        color: white;
+    }
+}
+
+
 #hm {
     transition: all 0.25s ease;
     margin: 5px;
