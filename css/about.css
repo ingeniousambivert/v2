@@ -53,6 +53,12 @@ html {
     }
 }
 
+.emoji {
+    display: inline-block;
+    font-size: 35px;
+
+
+}
 
 @media (max-width: 1000px) {
     #about-img {
@@ -61,9 +67,14 @@ html {
         margin-bottom: -1000px;
     }
 
+    .emoji {
+        font-size: 30px;
+
+    }
+
     .subHead,
     .head {
-        font-size: 40px;
+        font-size: 38px;
     }
 
 
