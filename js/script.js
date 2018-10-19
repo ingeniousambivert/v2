@@ -38,6 +38,9 @@ function navText() {
     ab.style.borderColor = "black";
     cn.style.borderColor = "black";
 }
+
+navText();
+
 /*
 // To detect a mobile device and change the color of the element accordingly
 function navTextSR() {
