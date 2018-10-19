@@ -75,15 +75,14 @@ html {
 
     .subHead,
     .head {
-        font-size: 38px;
+        font-size: 36px;
     }
 
 
 }
 
 .head {
-    background-image: -webkit-linear-gradient(left, #833ab4, #fd1d1d, #e2972d);
-    background-image: linear-gradient(to righ, #833ab4, #fd1d1d, #e2972d);
+    background-image: -webkit-linear-gradient(right, #8a2387, #e94057, #f27121);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
