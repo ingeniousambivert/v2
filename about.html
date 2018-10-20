@@ -21,10 +21,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit-icons.min.js"></script>
 
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />
+    <link rel="stylesheet" href="/css/uikit.min.css" />
     <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="/js/uikit-icons.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -101,7 +101,7 @@
                     my notions but also sharing details about the creative process behind each objective.I've
                     always been enthusiastic
                     about technology. My skills are broad
-                    from front end to back end
+                    from front-end to back-end
                     development. I enjoy each aspect, and love building websites & applications from start to finish.
                     I'm
                     available for remote
@@ -121,7 +121,7 @@
                     things with it. Below are some of the
                     qualities that after working and interacting with other people I was told that I possessed that
                     differentiates
-                    a good programmer from a great one.
+                    a great developer from a good one.
                 </p>
 
                 <!-- Grid row -->
@@ -153,9 +153,7 @@
                                     product. They
                                     are
                                     positive, willing to go the distance to
-                                    get the job done and bring their best everyday. Although it’s important not to
-                                    exhaust a developer with frequent
-                                    urgent deadlines, sometimes this is unavoidable. When you need to bring a
+                                    get the job done and bring their best everyday. When you need to bring a
                                     product
                                     to market or need to ship a
                                     certain feature out by the deadline, the great programmer will step up and get
@@ -242,19 +240,8 @@
 
         <!--Section: skills-->
         <section id="skills" class="text-center py-5" style="background-color: #eee;">
-
             <!-- Container -->
             <div class="container">
-
-                <!-- Section heading -->
-                <h2 class="h1-responsive font-weight-bold mb-5 headings">Inspiration</h2>
-                <!-- Section description -->
-                <p class="grey-text w-responsive mx-auto mb-5">
-                    <blockquote class="blockquote text-center">
-                        <p class="mb-0"><i id="quote"></i></p>
-
-                    </blockquote>
-                </p>
                 <br>
                 <h2 class="h1-responsive font-weight-bold mb-5 headings">Skills</h2>
                 <!-- Grid row -->
@@ -455,10 +442,28 @@
 
         </section>
         <!--Section: skills-->
+        <div style="background: linear-gradient(#eeeeee,#f6f6f6,#ffffff);"><br><br><br></div>
+        <!-- Section: inspiration-->
+        <section id="inspire" class="text-center py-5 h-auto" style="margin-bottom:0px;">
 
+            <div uk-parallax="bgy: -600" class="uk-background-cover uk-light" style="background-image: url('/img/inspire2.jpg');">
 
-        <!--Section: articles-->
-        <section id="articles" class="text-center py-5">
+                <div class="mask rgba-pink-slight justify-content-center align-items-center" style="padding:10px;">
+
+                    <h1 class="h1-responsive headings lead">
+                        Inspiration
+                    </h1><br>
+
+                    <p class="mb-0 w-responsive mx-auto mb-5 justify-content-center align-items-center" id="quote">
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <!--Section: inspiration-->
+
+        <!--Section: projects-->
+        <section id="projects" class="text-center py-5">
 
             <!-- Container -->
             <div class="container">
@@ -467,35 +472,56 @@
                 <h2 class="h1-responsive font-weight-bold mb-5 headings">Projects</h2>
                 <!-- Section description -->
                 <p class="grey-text w-responsive mx-auto mb-5">Here are a few of my projects and digital products that
-                    I've worked by myself on
+                    I've worked on by myself
                     or collaborated with other talented developers to create for both business
                     and
                     consumer use.</p>
 
                 <!-- Grid row -->
                 <div class="row text-center">
-
                     <!-- Grid column -->
-                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                    <div class="col-lg-4 col-md-6">
                         <!--Featured image-->
                         <div class="view overlay rounded z-depth-1">
-                            <img src="/img/glsinfo.jpg" class="img-fluid" alt="Sample project image">
+                            <img src="/img/weather.jpg" class="img-fluid" alt="Sample project image">
                             <a>
-                                <div class="mask flex-center rgba-grey-light">
-                                    <p class="white-text mask flex-center rgba-black-light">Collaborated Project</p>
+                                <div class="mask flex-center rgba-indigo-light">
+                                    <p class="white-text mask flex-center rgba-purple-light">Solo Project</p>
                                 </div>
                             </a>
                         </div>
                         <!--Excerpt-->
                         <div class="card-body pb-0">
-                            <h4 class="font-weight-bold my-3">GLS Info Website</h4>
-                            <p class="grey-text">It is a basic online manual concerning
-                                The Faculty of Computer applications & IT. It uses no front-end frameworks and is
-                                purely built from scratch.
+                            <h4 class="font-weight-bold my-3">Weather-Fetcher App</h4>
+                            <p class="grey-text">It is a basic weather fetching web based applications. The back-end of
+                                this project uses PHP and the front-end uses Bootstrap v4.
                             </p>
-                            <a href="https://github.com/ingeniousambivert/glsinfo" target="_blank" class="btn btn-purple btn-sm btnBd"><i
-                                    class="fa fa-clone left"></i>
+                            <a class="btn btn-purple btn-sm btnBd" href="https://github.com/ingeniousambivert/weather-fetching"
+                                target="_blank"><i class="fa fa-clone left"></i>
                                 View project</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                        <!--Featured image-->
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid" alt="Sample project image">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3">Title of the news</h4>
+                            <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                necessitatibus saepe eveniet ut et voluptates repudiandae.
+                            </p>
+                            <a target="_blank" class="btn btn-purple btn-sm btnBd"><i class="fa fa-clone left"></i>
+                                View
+                                project</a>
                         </div>
                     </div>
                     <!-- Grid column -->
@@ -521,26 +547,73 @@
                         </div>
                     </div>
                     <!-- Grid column -->
+                </div>
 
+                <!--Grid row -->
+                <div class="row text-center" style="margin-top:30px;">
                     <!-- Grid column -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                         <!--Featured image-->
                         <div class="view overlay rounded z-depth-1">
-                            <img src="/img/weather.jpg" class="img-fluid" alt="Sample project image">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid" alt="Sample project image">
                             <a>
-                                <div class="mask flex-center rgba-indigo-light">
-                                    <p class="white-text mask flex-center rgba-purple-light">Solo Project</p>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3">Title of the news</h4>
+                            <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                necessitatibus saepe eveniet ut et voluptates repudiandae.
+                            </p>
+                            <a target="_blank" class="btn btn-purple btn-sm btnBd"><i class="fa fa-clone left"></i>
+                                View
+                                project</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                        <!--Featured image-->
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid" alt="Sample project image">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3">Title of the news</h4>
+                            <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                necessitatibus saepe eveniet ut et voluptates repudiandae.
+                            </p>
+                            <a target="_blank" class="btn btn-purple btn-sm btnBd"><i class="fa fa-clone left"></i>
+                                View
+                                project</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                        <!--Featured image-->
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="/img/glsinfo.jpg" class="img-fluid" alt="Sample project image">
+                            <a>
+                                <div class="mask flex-center rgba-grey-light">
+                                    <p class="white-text mask flex-center rgba-black-light">Collaborated Project</p>
                                 </div>
                             </a>
                         </div>
                         <!--Excerpt-->
                         <div class="card-body pb-0">
-                            <h4 class="font-weight-bold my-3">Weather-Fetcher App</h4>
-                            <p class="grey-text">It is a basic weather fetching web based applications. The back-end of
-                                this project uses PHP and the front-end uses Bootstrap v4.
+                            <h4 class="font-weight-bold my-3">GLS Info Website</h4>
+                            <p class="grey-text">It is a basic online manual concerning
+                                The Faculty of Computer applications & IT. It uses no front-end frameworks and is
+                                purely built from scratch.
                             </p>
-                            <a class="btn btn-purple btn-sm btnBd" href="https://github.com/ingeniousambivert/weather-fetching"
-                                target="_blank"><i class="fa fa-clone left"></i>
+                            <a href="https://github.com/ingeniousambivert/glsinfo" target="_blank" class="btn btn-purple btn-sm btnBd"><i
+                                    class="fa fa-clone left"></i>
                                 View project</a>
                         </div>
                     </div>
