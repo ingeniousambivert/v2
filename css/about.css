@@ -16,6 +16,14 @@ header,
     }
 }
 
+.btnBd {
+    transition: border-radius 1s ease-in-out;
+}
+
+.btnBd:hover {
+    border-radius: 20px;
+}
+
 .headings {
     font-family: 'Ubuntu',
         sans-serif;
