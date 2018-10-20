@@ -69,6 +69,23 @@ header,
         font-family: 'Open Sans', sans-serif;
         height: 100vh;
     }
+
+    #or {
+        font-size: 13px;
+        margin: 6px;
+        text-align: center;
+    }
+
+    #btn1 {
+
+        width: 135px;
+        padding: 10px;
+        font-size: 11px;
+        display: inline-block;
+        border-radius: 20px;
+        box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
+        text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+    }
 }
 
 
