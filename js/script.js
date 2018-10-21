@@ -1,5 +1,5 @@
 // Basic JS to change the color of navbar element style after scroll
-
+/*
 var hm = document.getElementById('hm');
 var cn = document.getElementById('cn');
 var ab = document.getElementById('ab');
@@ -40,7 +40,7 @@ function navText() {
 }
 
 navText();
-
+*/
 /*
 // To detect a mobile device and change the color of the element accordingly
 function navTextSR() {
