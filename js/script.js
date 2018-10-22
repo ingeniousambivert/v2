@@ -62,6 +62,11 @@ function navTextSR() {
 
     */
 
+
+
+// Type JS
+
+
 // To generate random quotes
 
 function randomQ() {
