@@ -8,6 +8,10 @@
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="{{"/img/favicon.ico" | relURL}}" type="image/x-icon" />
     <link rel="icon" href="{{"/img/favicon.ico" | relURL}}" type="image/x-icon" />
+    <!--Typed JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js"></script>
+    <script src="/js/typeit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -50,17 +54,13 @@
                     <div class="row wow fadeIn">
                         <!--Grid column-->
                         <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
-                            <h1 id="heading" class="h1-responsive mb-0 pt-md-5 pt-5 animated fadeInDown my-4">
-                                ECCENTRIC
+                            <h1 id="heading" class="h1-responsive mb-0 pt-md-5 pt-5 animated fadeInDown my-4">ECCENTRIC
                                 COMPUTER
-                                WHISPERER </h1>
+                                WHISPERER
+                            </h1>
                             <hr class="style mw-100 animated zoomIn">
 
-                            <h4 class="subtext-header subhead mt-2 mb-4 animated fadeInUp my-4">Browse my growing
-                                portfolio
-                                of
-                                progressive
-                                development, feel free to drop a line.</h4>
+                            <h4 id="subHead" class="subtext-header subhead mt-2 mb-4 animated fadeInUp my-4"></h4>
                             <br>
 
                             <a href="about.html" class="animated zoomInLeft">
@@ -94,7 +94,16 @@
         </div>
         <!-- Full Page Intro -->
     </header>
+    <script>
+        new TypeIt('#heading', {
+            strings: 'ECCENTRIC COMPUTER WHISPERER',
+            speed: 50
+        });
 
+        new TypeIt('#subHead', {
+            speed: 70
+        }).pause(4500).type('Browse my growing portfolio of progresive development, feel free to drop a line.');;
+    </script>
     <!-- Footer -->
     <footer class="page-footer font-small pt-4">
         <!-- Copyright -->
