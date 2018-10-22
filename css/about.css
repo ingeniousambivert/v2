@@ -138,7 +138,7 @@ html {
 }
 
 .head {
-    background-image: -webkit-linear-gradient(right, #fc466b, #3f5efb);
+    background-image: -webkit-linear-gradient(right, #fc466b, #454cd8);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
