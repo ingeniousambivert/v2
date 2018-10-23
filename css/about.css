@@ -29,6 +29,10 @@ header,
     border-radius: 20px;
 }
 
+.textCol {
+    font-weight: bold;
+}
+
 .headings {
     font-family: 'Oswald',
         sans-serif;
@@ -199,7 +203,7 @@ html {
 
 .textCol {
 
-    color: #6a646d;
+    color: #5a565c;
 
 }
 
