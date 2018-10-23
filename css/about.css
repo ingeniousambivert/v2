@@ -103,6 +103,10 @@ html {
 
     }
 
+    #img {
+        margin-top: -300px;
+    }
+
     .subHead,
     .head {
         font-size: 36px;
@@ -110,25 +114,19 @@ html {
 
 }
 
-@media (max-width: 740px) {
-    #about {
-        margin-bottom: -80px;
-    }
+@media (max-width: 600px) {
 
     .textCol {
         font-size: 16px;
 
     }
 
-    #wave {
-        margin-top: -55px;
+    #img {
+        visibility: hidden;
+
     }
 }
 
-#wave {
-    background-size: cover;
-    margin-top: -50px;
-}
 
 
 #scroll {
