@@ -92,87 +92,17 @@ randomQ();
 
 
 // Bootstrap Charts
-//line
-var ctxL = document.getElementById("lineChart").getContext('2d');
-var myLineChart = new Chart(ctxL, {
-    type: 'line',
+//doughnut
+var ctxD = document.getElementById("doughnutChart").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
     data: {
-        labels: ["", "", "", "Over The Years", "", "", ""],
+        labels: ["HTML5 & CSS3", "Javascript", "PHP & MySQL", "C", "C++", "Java", "Python"],
         datasets: [{
-                label: "HTML5 & CSS3",
-                data: [25, 39, 10, 31, 56, 55, 40],
-                backgroundColor: [
-                    'rgba(255, 99, 132, 1)',
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                ],
-                borderWidth: 2
-            },
-            {
-                label: "Javscript",
-                data: [28, 48, 40, 19, 86, 27, 90],
-                backgroundColor: [
-                    'rgba(255, 159, 64,1)',
-                ],
-                borderColor: [
-                    'rgba(255, 159, 64,1)',
-                ],
-                borderWidth: 2
-            },
-            {
-                label: "C",
-                data: [21, 38, 43, 29, 86, 37, 90],
-                backgroundColor: [
-                    'rgba(255, 205, 86,1)',
-                ],
-                borderColor: [
-                    'rgba(255, 205, 86,1)',
-                ],
-                borderWidth: 2
-            },
-            {
-                label: "C++",
-                data: [28, 38, 10, 69, 16, 37, 50],
-                backgroundColor: [
-                    'rgba(75, 192, 192,1)',
-                ],
-                borderColor: [
-                    'rgba(75, 192, 192,1)',
-                ],
-                borderWidth: 2
-            }, {
-                label: "Python",
-                data: [12, 38, 45, 29, 96, 57, 90],
-                backgroundColor: [
-                    'rgba(54, 162, 235,1)',
-                ],
-                borderColor: [
-                    'rgba(54, 162, 235,1)',
-                ],
-                borderWidth: 2
-            }, {
-                label: "PHP & MySQL",
-                data: [28, 32, 4, 12, 46, 29, 90],
-                backgroundColor: [
-                    'rgba(153, 102, 255,1)',
-                ],
-                borderColor: [
-                    'rgba(153, 102, 255,1)',
-                ],
-                borderWidth: 2
-            }, {
-                label: "Java",
-                data: [28, 32, 4, 12, 46, 29, 90],
-                backgroundColor: [
-                    'rgba(201, 203, 207,1)',
-                ],
-                borderColor: [
-                    'rgba(201, 203, 207,1)',
-                ],
-                borderWidth: 2
-            }
-        ]
+            data: [300, 50, 100, 40, 120, 100, 20],
+            backgroundColor: ["rgba(255, 99, 132,1)", "rgba(255, 159, 64,1)", "rgba(255, 205, 86,1)", "rgba(75, 192, 192,1)", "rgba(54, 162, 235,1)", "rgba(153, 102, 255, 1)", "rgba(243, 131, 113,1)"],
+            hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+        }]
     },
     options: {
         responsive: true
