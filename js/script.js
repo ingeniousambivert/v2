@@ -91,185 +91,90 @@ function randomQ() {
 randomQ();
 
 
-// Chart JS
-
-var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
-    'September', 'October',
-    'November', 'December'
-];
-var config = {
+// Bootstrap Charts
+//line
+var ctxL = document.getElementById("lineChart").getContext('2d');
+var myLineChart = new Chart(ctxL, {
     type: 'line',
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ["", "", "", "Over The Years", "", "", ""],
         datasets: [{
-            label: 'My First dataset',
-            borderColor: window.chartColors.red,
-            backgroundColor: window.chartColors.red,
-            data: [
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor()
-            ],
-        }, {
-            label: 'My Second dataset',
-            borderColor: window.chartColors.blue,
-            backgroundColor: window.chartColors.blue,
-            data: [
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor()
-            ],
-        }, {
-            label: 'My Third dataset',
-            borderColor: window.chartColors.orange,
-            backgroundColor: window.chartColors.orange,
-            data: [
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor()
-            ],
-        }, {
-            label: 'My Fourth dataset',
-            borderColor: window.chartColors.yellow,
-            backgroundColor: window.chartColors.yellow,
-            data: [
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor()
-            ],
-        }, {
-            label: 'My Fourth dataset',
-            borderColor: window.chartColors.green,
-            backgroundColor: window.chartColors.green,
-            data: [
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor()
-            ],
-        }, {
-            label: 'My Fourth dataset',
-            borderColor: window.chartColors.purple,
-            backgroundColor: window.chartColors.purple,
-            data: [
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor(),
-                randomScalingFactor()
-            ],
-        }]
+                label: "HTML5 & CSS3",
+                data: [25, 39, 10, 31, 56, 55, 40],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 1)',
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                ],
+                borderWidth: 2
+            },
+            {
+                label: "Javscript",
+                data: [28, 48, 40, 19, 86, 27, 90],
+                backgroundColor: [
+                    'rgba(255, 159, 64,1)',
+                ],
+                borderColor: [
+                    'rgba(255, 159, 64,1)',
+                ],
+                borderWidth: 2
+            },
+            {
+                label: "C",
+                data: [21, 38, 43, 29, 86, 37, 90],
+                backgroundColor: [
+                    'rgba(255, 205, 86,1)',
+                ],
+                borderColor: [
+                    'rgba(255, 205, 86,1)',
+                ],
+                borderWidth: 2
+            },
+            {
+                label: "C++",
+                data: [28, 38, 10, 69, 16, 37, 50],
+                backgroundColor: [
+                    'rgba(75, 192, 192,1)',
+                ],
+                borderColor: [
+                    'rgba(75, 192, 192,1)',
+                ],
+                borderWidth: 2
+            }, {
+                label: "Python",
+                data: [12, 38, 45, 29, 96, 57, 90],
+                backgroundColor: [
+                    'rgba(54, 162, 235,1)',
+                ],
+                borderColor: [
+                    'rgba(54, 162, 235,1)',
+                ],
+                borderWidth: 2
+            }, {
+                label: "PHP & MySQL",
+                data: [28, 32, 4, 12, 46, 29, 90],
+                backgroundColor: [
+                    'rgba(153, 102, 255,1)',
+                ],
+                borderColor: [
+                    'rgba(153, 102, 255,1)',
+                ],
+                borderWidth: 2
+            }, {
+                label: "Java",
+                data: [28, 32, 4, 12, 46, 29, 90],
+                backgroundColor: [
+                    'rgba(201, 203, 207,1)',
+                ],
+                borderColor: [
+                    'rgba(201, 203, 207,1)',
+                ],
+                borderWidth: 2
+            }
+        ]
     },
     options: {
-        responsive: true,
-        title: {
-            display: true,
-            text: 'To help you gauge my skills'
-        },
-        tooltips: {
-            mode: 'index',
-        },
-        hover: {
-            mode: 'index'
-        },
-        scales: {
-            xAxes: [{
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Month'
-                }
-            }],
-            yAxes: [{
-                stacked: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Value'
-                }
-            }]
-        }
+        responsive: true
     }
-};
-
-window.onload = function () {
-    var ctx = document.getElementById('canvas').getContext('2d');
-    window.myLine = new Chart(ctx, config);
-};
-
-document.getElementById('randomizeData').addEventListener('click', function () {
-    config.data.datasets.forEach(function (dataset) {
-        dataset.data = dataset.data.map(function () {
-            return randomScalingFactor();
-        });
-
-    });
-
-    window.myLine.update();
-});
-
-var colorNames = Object.keys(window.chartColors);
-document.getElementById('addDataset').addEventListener('click', function () {
-    var colorName = colorNames[config.data.datasets.length % colorNames.length];
-    var newColor = window.chartColors[colorName];
-    var newDataset = {
-        label: 'Dataset ' + config.data.datasets.length,
-        borderColor: newColor,
-        backgroundColor: newColor,
-        data: [],
-    };
-
-    for (var index = 0; index < config.data.labels.length; ++index) {
-        newDataset.data.push(randomScalingFactor());
-    }
-
-    config.data.datasets.push(newDataset);
-    window.myLine.update();
-});
-
-document.getElementById('addData').addEventListener('click', function () {
-    if (config.data.datasets.length > 0) {
-        var month = MONTHS[config.data.labels.length % MONTHS.length];
-        config.data.labels.push(month);
-
-        config.data.datasets.forEach(function (dataset) {
-            dataset.data.push(randomScalingFactor());
-        });
-
-        window.myLine.update();
-    }
-});
-
-document.getElementById('removeDataset').addEventListener('click', function () {
-    config.data.datasets.splice(0, 1);
-    window.myLine.update();
-});
-
-document.getElementById('removeData').addEventListener('click', function () {
-    config.data.labels.splice(-1, 1); // remove the label first
-
-    config.data.datasets.forEach(function (dataset) {
-        dataset.data.pop();
-    });
-
-    window.myLine.update();
 });
