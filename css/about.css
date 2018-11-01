@@ -213,6 +213,7 @@ html {
 a {
     font-family: 'Roboto Condensed',
         sans-serif;
+    font-weight: bold;
 }
 
 #btn1 {
