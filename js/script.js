@@ -119,6 +119,17 @@ var myLineChart = new Chart(ctxL, {
                     'rgba(0, 10, 130, .7)',
                 ],
                 borderWidth: 2
+            },
+            {
+                label: "My Third dataset",
+                data: [8, 28, 14, 49, 81, 57, 80],
+                backgroundColor: [
+                    'rgba(0, 127, 12, .2)',
+                ],
+                borderColor: [
+                    'rgba(0, 11, 10, .7)',
+                ],
+                borderWidth: 2
             }
         ]
     },
