@@ -86,9 +86,27 @@ header,
         box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
         text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
     }
+
+    #btn2 {
+
+        width: 135px;
+        padding: 10px;
+        font-size: 11px;
+        display: inline-block;
+        border-radius: 20px;
+        box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
+        text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+    }
 }
 
+#btn2 {
+    margin: 35px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
+    text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
 
+}
 
 #btn1 {
     margin: 35px;
@@ -96,6 +114,7 @@ header,
     border-radius: 20px;
     box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
     text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+
 }
 
 hr.style {
