@@ -62,25 +62,27 @@
 
                             <h4 id="subHead" class="subtext-header subhead mt-2 mb-4 animated fadeInUp my-4"></h4>
                             <br>
+                            <div class="">
+                                <a href="about.html" class="animated fadeInUpBig">
+                                    <button id="btn1" class=" btn purple-gradient btn-rounded  animated pulse infinite my-4"
+                                        style="visibility: hidden;">Learn
+                                        More
+                                    </button>
+                                </a>
 
-                            <a href="about.html" class="animated zoomInLeft">
-                                <button id="btn1" class="btn purple-gradient btn-rounded  animated pulse infinite my-4
-                                    ">Learn
-                                    More
-                                </button>
-                            </a>
+                                <div class="vertical-divider animated zoomIn" style="opacity:0.65;   
+text-shadow: 3px 3px 5px rgba(0, 1, 4, 0.4); visibility: hidden;"
+                                    id="or">OR
+                                </div>
 
-                            <div class="vertical-divider animated zoomIn" style="opacity:0.65;   
-                            text-shadow: 3px 3px 5px rgba(0, 1, 4, 0.4);"
-                                id="or">OR
+                                <a href="contact.html" class="animated fadeInUpBig">
+                                    <button id="btn2" class="btn purple-gradient btn-rounded  animated pulse infinite my-4"
+                                        style="visibility: hidden;">Contact
+                                        Me
+                                    </button>
+                                </a>
                             </div>
 
-                            <a href="contact.html" class="animated zoomInRight">
-                                <button id="btn1" class="btn purple-gradient btn-rounded  animated pulse infinite my-4
-                                    ">Contact
-                                    Me
-                                </button>
-                            </a>
                         </div>
 
                     </div>
@@ -95,6 +97,21 @@
         <!-- Full Page Intro -->
     </header>
     <script>
+        window.onload = function () {
+            setTimeout(func, 10000);
+
+        };
+
+        function func() {
+            var sh1 = document.getElementById("btn1");
+            var sh2 = document.getElementById("btn2");
+            var sh3 = document.getElementById("or");
+            sh1.style.visibility = "visible";
+            sh2.style.visibility = "visible";
+            sh3.style.visibility = "visible";
+        }
+
+
         new TypeIt('#heading', {
             strings: 'ECCENTRIC COMPUTER WHISPERER',
             speed: 50,
