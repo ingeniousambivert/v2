@@ -92,15 +92,15 @@ randomQ();
 
 
 // Bootstrap Charts
-//line
-var ctxL = document.getElementById("lineChart").getContext('2d');
-var myLineChart = new Chart(ctxL, {
-    type: 'line',
+//radar
+var ctxR = document.getElementById("radarChart").getContext('2d');
+var myRadarChart = new Chart(ctxR, {
+    type: 'radar',
     data: {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        labels: ["Eating", "Gym", "Sleeping", "Designing", "Coding", "Learning", "Playing"],
         datasets: [{
                 label: "My First dataset",
-                data: [65, 59, 80, 81, 56, 55, 40],
+                data: [65, 59, 90, 81, 56, 55, 40],
                 backgroundColor: [
                     'rgba(105, 0, 132, .2)',
                 ],
@@ -111,23 +111,12 @@ var myLineChart = new Chart(ctxL, {
             },
             {
                 label: "My Second dataset",
-                data: [28, 48, 40, 19, 86, 27, 90],
+                data: [28, 48, 40, 19, 96, 27, 100],
                 backgroundColor: [
-                    'rgba(0, 137, 132, .2)',
+                    'rgba(0, 250, 220, .2)',
                 ],
                 borderColor: [
-                    'rgba(0, 10, 130, .7)',
-                ],
-                borderWidth: 2
-            },
-            {
-                label: "My Third dataset",
-                data: [8, 28, 14, 49, 81, 57, 80],
-                backgroundColor: [
-                    'rgba(0, 127, 12, .2)',
-                ],
-                borderColor: [
-                    'rgba(0, 11, 10, .7)',
+                    'rgba(0, 213, 132, .7)',
                 ],
                 borderWidth: 2
             }
