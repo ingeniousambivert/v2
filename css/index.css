@@ -87,6 +87,8 @@ header,
         border-radius: 20px;
         box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
         text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+
+
     }
 
     #btn2 {
@@ -98,6 +100,9 @@ header,
         border-radius: 20px;
         box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
         text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+
+
+
     }
 }
 
@@ -107,6 +112,9 @@ header,
     border-radius: 20px;
     box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
     text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+    background: #4568DC;
+    background-image: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background-image: linear-gradient(to right, #B06AB3, #4568DC);
 
 }
 
@@ -116,6 +124,9 @@ header,
     border-radius: 20px;
     box-shadow: 4px 6px 6px rgba(0, 1, 4, 0.4);
     text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
+    background: #4568DC;
+    background-image: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background-image: linear-gradient(to right, #B06AB3, #4568DC);
 
 }
 
