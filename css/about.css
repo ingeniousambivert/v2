@@ -115,7 +115,7 @@ html {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     .textCol {
         font-size: 16px;
@@ -125,6 +125,10 @@ html {
     #img {
         visibility: hidden;
 
+    }
+
+    #cont {
+        font-size: 20px;
     }
 }
 
@@ -188,6 +192,14 @@ html {
     padding: 7px;
 }
 
+
+.hide {}
+
+
+#cont {
+    font-size: 25px;
+}
+
 .headCol {
     color: #2b1c30;
 
@@ -218,6 +230,9 @@ a {
 
 #btn1 {
     border-radius: 20px;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 .bt1 {
