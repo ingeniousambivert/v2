@@ -114,7 +114,8 @@ header,
     text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
     background: #4568DC;
     background-image: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background-image: linear-gradient(to right, #B06AB3, #4568DC);
+    background-image: linear-gradient(to right, #B06AB3, rgb(84, 69, 220));
+
 
 }
 
@@ -126,7 +127,7 @@ header,
     text-shadow: 2px 2px 2px rgba(0, 1, 4, 0.4);
     background: #4568DC;
     background-image: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background-image: linear-gradient(to right, #B06AB3, #4568DC);
+    background-image: linear-gradient(to right, #B06AB3, rgb(84, 69, 220));
 
 }
 
