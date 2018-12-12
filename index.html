@@ -95,17 +95,29 @@ text-shadow: 3px 3px 5px rgba(0, 1, 4, 0.4); visibility: hidden;"
         <!-- Full Page Intro -->
     </header>
     <script>
+        var sh1 = document.getElementById("btn1");
+        var sh2 = document.getElementById("btn2");
+        var sh3 = document.getElementById("or");
+
+
         window.onload = function () {
-            setTimeout(func, 9800);
+            setTimeout(func, 2500);
         };
 
+        function func1() {
+
+
+        }
+
         function func() {
-            var sh1 = document.getElementById("btn1");
-            var sh2 = document.getElementById("btn2");
-            var sh3 = document.getElementById("or");
+
+            sh3.style.transition = "2s ease-in all;";
+            sh2.style.transition = "2s ease-in all;";
+            sh1.style.transition = "2s ease-in all;";
             sh1.style.visibility = "visible";
             sh2.style.visibility = "visible";
             sh3.style.visibility = "visible";
+
         }
 
 
@@ -117,8 +129,8 @@ text-shadow: 3px 3px 5px rgba(0, 1, 4, 0.4); visibility: hidden;"
         });
 
         new TypeIt('#subHead', {
-            speed: 70,
-        }).pause(4000).type('Browse my growing portfolio of progressive development, feel free to drop a line.');;
+            speed: 30,
+        }).pause(2000).type('Browse my growing portfolio of progressive development, feel free to drop a line.');;
     </script>
     <!-- Footer -->
     <footer class="page-footer font-small pt-4">
